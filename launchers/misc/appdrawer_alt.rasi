@@ -8,16 +8,17 @@
  */
 
 configuration {
-	font:							"Noto Sans 10";
+	font:							"CaskaydiaCove NF";
     show-icons:                     true;
-	icon-theme: 					"Papirus";
-    display-drun: 					"";
+	icon-theme: 					"Papirus-Dark";
+    display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
 	sidebar-mode: 					false;
 }
 
 /* -- Light -- */
+/*
 * {
     background:                     #e5e5e5ff;
     background-alt:              	#00000000;
@@ -27,9 +28,9 @@ configuration {
     border:		               		#1A73E9FF;
     selected:               		#D7D7D7FF;
 }
+*/
 
 /* -- Dark -- */
-/*
 * {
     background:                     #212121ff;
     background-alt:              	#00000000;
@@ -39,7 +40,6 @@ configuration {
     border:		               		#1A73E9FF;
     selected:               		#151515ff;
 }
-*/
 
 window {
     transparency:                   "real";
@@ -49,17 +49,16 @@ window {
 	border-color:					@border;
     border-radius:                  30px;
 	width:							30%;
-    location:                       west;
+    location:                       center;
     x-offset:                       20px;
     y-offset:                       0;
 }
 
 prompt {
     enabled: 						true;
-	padding: 						0.25% 0.75% 0% -0.25%;
+	padding: 						0% 0.75% 0% 0%;
 	background-color: 				@background-alt;
 	text-color: 					@foreground;
-	font:							"FantasqueSansMono Nerd Font 12";
 }
 
 entry {
@@ -69,7 +68,7 @@ entry {
     expand:                         true;
     horizontal-align:               0;
     placeholder:                    "Search Apps";
-    padding:                        -0.15% 0% 0% 0%;
+    padding:                        0% 0% 0% 0%;
     blink:                          true;
 }
 

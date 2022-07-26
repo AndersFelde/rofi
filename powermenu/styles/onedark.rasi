@@ -1,0 +1,26 @@
+    /*"white": "#dcdcdc",
+    *"black": "#000000",
+    *"dark": "#181a1f",
+    *"lightDark": "#21252b",
+    *"grey": "#ABB2BF",
+    *"lightRed": "#ff616e",
+    *"red": "#f44747",
+    *"green": "#8cc265",
+    *"yellow": "#E5C76B",
+    *"orange": "#f0a45d",
+    *"blue": "#61afef",
+    *"lightBlue": "#56b6c2",
+    *"darkBlue": "#4d78cc",
+    *"purple": "#c678dd",
+    *"transparent": "#00000000",
+    */
+
+* {
+    background:                     #181a1f;
+    background-alt:                 #21252b;
+    foreground:                     #dcdcdc;
+    border-alt:                     #61afef;
+    border:               		    #f0a45d;
+    selected:               		#8cc265;
+    urgent:                         #f44747;
+}
