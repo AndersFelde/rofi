@@ -20,7 +20,7 @@
     background-alt:                 #21252b;
     foreground:                     #dcdcdc;
     border-alt:                     #61afef;
-    border:               		    #f0a45d;
+    border:               		    #61afef;
     selected:               		#8cc265;
     urgent:                         #f44747;
 }
