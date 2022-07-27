@@ -4,3 +4,4 @@ configuration {
   show-icons:         true;
   icon-theme:         "Papirus-Dark";
 }
+@theme "~/.config/rofi/launchers/misc/appdrawer_alt"
