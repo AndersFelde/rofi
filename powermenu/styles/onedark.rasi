@@ -21,6 +21,6 @@
     foreground:                     #dcdcdc;
     border-alt:                     #61afef;
     border:               		    #61afef;
-    selected:               		#8cc265;
+    selected:               		#61afef;
     urgent:                         #f44747;
 }
