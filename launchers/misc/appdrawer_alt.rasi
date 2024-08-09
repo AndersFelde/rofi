@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"CaskaydiaCove NF";
+	font:							"CaskaydiaCove NF 12";
     show-icons:                     true;
 	icon-theme: 					"Papirus-Dark";
     display-drun: 					"";
